@@ -8,7 +8,7 @@ namespace tabuleiro
     {
         public Posicao posicao { get; set; }
         public Cor cor { get; protected set; }
-        public int qtdeMovimentos { get; protected set; } = 0;
+        public int qtdeMovimentos { get; protected set; }
         public Tabuleiro tab { get; protected set; }
 
         public Peca(Posicao posicao, Cor cor, Tabuleiro tab)
@@ -16,6 +16,7 @@ namespace tabuleiro
             this.posicao = posicao;
             this.cor = cor;
             this.tab = tab;
+            qtdeMovimentos = 0;
         }
     }
 }
