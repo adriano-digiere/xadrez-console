@@ -13,5 +13,10 @@
 
             pecas = new Peca[linhas, colunas];
         }
+
+        public Peca peca()
+        {
+
+        }
     }
 }
