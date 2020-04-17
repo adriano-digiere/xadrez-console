@@ -17,7 +17,7 @@ namespace tabuleiro
 
         public override string ToString()
         {
-            return $"{linha}, {Coluna}";
+            return $"{Linha}, {Coluna}";
         }
     }
 }
